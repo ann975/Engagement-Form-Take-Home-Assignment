@@ -1,7 +1,23 @@
+body {
+  color: #ccccff;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(51, 51, 255, 0.8); 
+  
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
 .app {
   max-width: 800px;
-  margin: 0 auto;
   padding: 2rem;
+  background-color: rgba(51, 51, 255, 0.8); 
+  color: #ccccff;
+  width: 100%; 
+  border-radius: 10px; 
 }
 
 header {
@@ -9,4 +25,36 @@ header {
   text-align: center;
 }
 
-/* Add your custom styles below */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+label {
+  font-size: 1.25rem;
+  padding: 10px;
+  margin: 10px;
+}
+/* Add larger labels 
+*/
+
+button {
+  margin-top: 2rem;
+  padding: 0.8rem 2rem;
+  background-color: #b3b3ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #5555ff;
+}
+
+/*Add PBS logo silhouetted in background,
+ better formatted to PBS brand
+*/
